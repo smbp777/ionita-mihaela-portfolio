@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mihaela Ionita | Computer Engineering & AI student</title>
+    <meta name="description" content="Aspiring developer | First year Computer Engineering & AI student | Building a new future through code" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-left">
+          <button id="theme-toggle" aria-label="Toggle dark mode" class="theme-toggle">🌓</button>
+          <div class="logo">Mihaela Ionita</div>
+        </div>
+        <nav class="nav" id="mainNav">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="hamburger" aria-label="Toggle navigation" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Hello, I'm <span>Mihaela</span></h1>
+        <h2>Future Developer | Computer Engineering & AI student</h2>
+        <p>
+          I'm in my first semester of a Bachelor's degree, building a new path in technology after a decade leading kitchens and teams in Romania's and Rome's
+          food industry.
+        </p>
+        <p>Now, I'm learning to code with the same passion, discipline, and precision.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Projects</a>
+          <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="self.jpg" alt="Mihaela Ionita" />
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          For over 10 years, I managed kitchens, trained teams, and oversaw daily operations in fast-paced restaurant environments. But beneath it all, I've
+          always been drawn to logic, systems, and problem-solving.
+        </p>
+        <p>
+          Today, I'm channeling that drive into computer engineering and artificial intelligence. I'm committed to mastering programming, understanding how
+          computers works, and eventually building intelligent systems that help people.
+        </p>
+        <p>This portfolio marks the beginning of my transformation from kitchen leader to software developer.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2>Skills and Learning</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Programming & Web Development</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript (learning)</li>
+              <li>Python (basics,learning)</li>
+              <li>Git & GitHub</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Computer science Fundamentals</h3>
+            <ul>
+              <li>Programming Principles</li>
+              <li>Discrete Mathematics</li>
+              <li>Computer Architecture</li>
+              <li>Computer Networks</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Soft Skills</h3>
+            <ul>
+              <li>Team Leadership</li>
+              <li>Problem Solving</li>
+              <li>Adaptability</li>
+              <li>Client Communication</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <p class="section-intro">Building my foundation one line of code at a time</p>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>Personal Portfolio Website</h3>
+            <p class="project-tech">HTML5, CSS3, JavaScript</p>
+            <p>This website - my first full web project</p>
+          </div>
+          <div class="project-card">
+            <h3>Learning in Progress</h3>
+            <p class="project-tech">Python, JavaScript</p>
+            <p>Currently working on small coding exercises and projects to build my skills.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="background" class="background">
+      <div class="container">
+        <h2>My Previous Chapter</h2>
+        <div class="background-content">
+          <p>
+            Before code, I spent over a decade in Rome's food industry, as a manager, chef, pizzaiola, and kitchen supervisor. I opened new locations, trained
+            teams, managed suppliers, and ensured smooth daily operations.
+          </p>
+          <p>
+            That experience didn't vanish. It taught me discipline, resilience, and how to lead under pressure - qualities I now bring to my studies in Computer
+            Engineering & AI.
+          </p>
+          <p>This isn't just a career change; it's a purposefull evolution.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Get in Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> dkacharmed7@gmail.com</p>
+            <p><i class="fas fa-phone"></i>+39 3478767605</p>
+            <p><i class="fas fa-map-marker-alt"></i> Rome, Italy</p>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/mihaela-ionita/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/smbp777" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 Mihaela Ionita. All rights reserved.</p>
+        <p>Made with HTML5, CSS3, and JavaScript</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
